@@ -82,7 +82,7 @@ align-items: center;
   background-color: #FEA301;
   display: none;
 }
-.Empowering{
+.Empowering, h1{
   font-size: 50px;
   /* max-width: 240px; */
 }
@@ -92,11 +92,114 @@ align-items: center;
 .towards{
   color: #01ACFD;
 }
+.orange {
+  color: #FEA301;
+}
+
+.blue {
+  color: #01ACFD;
+}
+
+.purple {
+  color: #5D58EF;
+}
+.curriculum-section {
+  background-image : url('bg.png');
+  padding: 2rem 5rem;
+
+}
+
+.curriculum-section h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.curriculum-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 3rem;
+  gap: 30px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+#b1 {
+  background: none;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.arr {
+  position: relative;
+  background-color: #FEA301;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.arr div {
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+  transform: rotate(45deg);
+  left: 14px;
+  top: 16px;
+}
+.scroll {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 10px;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+.right {
+  transform: rotate(90deg);
+}
+
+.left {
+  transform: rotate(-90deg);
+}
 
 .with-the{
   font-size: 18px;
   max-width: 500px;
 }
+.box1 {
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(#61a1bc, #ffffff);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 40px 40px;
+  border-radius: 20px;
+  text-align: center;
+}
+.box2 {
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(#FFF4DC, #ffffff);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 40px 40px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.box3 {
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(#F2E8FF, #ffffff);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 40px 40px;
+  border-radius: 20px;
+  text-align: center;
+}
+
 
 
 @media screen and ( max-width : 576px) {
