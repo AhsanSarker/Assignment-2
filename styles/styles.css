@@ -105,18 +105,20 @@ align-items: center;
     }
     .navbar{
       display: flex;
-     justify-content: left;
-
+     /* justify-content: left; */
+     justify-content: space-around;
+     gap: 100px;
     
     }
     .hamburger-img{
 
       display:block;
       
-      margin-left: 250px;
+      /* margin-left: 200px;
       width: 40px;
-      height: 40px;
-      
+      height: 40px; */
+      display: flex;
+    justify-content: space-between;
     }
     .line{
       display: block;
