@@ -41,7 +41,7 @@ align-items: center;
 .banner{
       display: flex;
       gap: 400px;
-      padding: 40px 50px;
+      padding: 40px 55px;
       
 }
 .nav-icon{
@@ -117,6 +117,8 @@ align-items: center;
   .banner{
     flex-direction: column-reverse;
     gap: 0px;
+  
+   
   }
 
 
