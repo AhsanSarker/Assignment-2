@@ -38,6 +38,12 @@
 justify-content: space-evenly;
 align-items: center;
 }
+.banner{
+      display: flex;
+      gap: 400px;
+      padding: 40px 50px;
+      
+}
 .nav-icon{
   
   align-items: center;
@@ -108,4 +114,10 @@ align-items: center;
     .line{
       display: block;
     }
+  .banner{
+    flex-direction: column-reverse;
+    gap: 0px;
+  }
+
+
 }
