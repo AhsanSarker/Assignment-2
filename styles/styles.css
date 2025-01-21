@@ -11,6 +11,9 @@
 
 
 /* shared styles */
+body{
+  margin: 0 140px;
+}
 .display-flex{
   display: flex;
 }
@@ -35,15 +38,15 @@
 
 /* navbar related styles */
 .navbar{
-justify-content: space-evenly;
+/* justify-content: space-evenly; */
 align-items: center;
 }
 .banner{
   display: flex;
-  gap: 500px;
+  gap:330px;
   /* padding: 40px 90px; */
-  margin-left: 90px;
-  
+  /* margin-left: 90px; */
+  margin-top: 80px;
 }
 .nav-icon{
   
