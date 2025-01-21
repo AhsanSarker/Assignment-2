@@ -24,6 +24,12 @@
   border-radius: 12px;
   padding: 10px 50px;
 }
+.second-button-text-colour{
+     background-color: black;
+     color: #FFFFFF;
+     border-radius: 12px;
+     padding: 10px 50px;
+}
 
 /* header styles */
 
@@ -52,9 +58,6 @@ align-items: center;
   align-items: center;
   margin-left: 300px;
 }
-.second-button{
-      
-}
 .hamburger-img{
   display: none;
 }
@@ -69,11 +72,18 @@ align-items: center;
   display: none;
 }
 .Empowering{
-  
-  max-width: 240px;
-  
+  font-size: 50px;
+  /* max-width: 240px; */
 }
+.Empower{
+ color: #FEA301;
+}
+.towards{
+  color: #01ACFD;
+}
+
 .with-the{
+  font-size: 18px;
   max-width: 500px;
 }
 @media screen and ( max-width : 576px) {
