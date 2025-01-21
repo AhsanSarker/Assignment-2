@@ -12,7 +12,7 @@
 
 /* shared styles */
 body{
-  margin: 0 140px;
+  margin: 0 140;
 }
 .display-flex{
   display: flex;
@@ -38,15 +38,15 @@ body{
 
 /* navbar related styles */
 .navbar{
-/* justify-content: space-evenly; */
+justify-content: space-evenly;
 align-items: center;
 }
 .banner{
   display: flex;
-  gap:330px;
+  gap: 500px;
   /* padding: 40px 90px; */
-  /* margin-left: 90px; */
-  margin-top: 80px;
+  margin-left: 90px;
+  
 }
 .nav-icon{
   
