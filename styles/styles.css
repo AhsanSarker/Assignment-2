@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* shared styles */
+.display-flex{
+  display: flex;
+}
+.text-orange{
+  color: #FEA301;
+}
+.button-text-colour{
+  background-color: #FEA301;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 50px;
+}
+
+/* header styles */
+
+/* navbar related styles */
+.navbar{
+justify-content: space-evenly;
+align-items: center;
+}
+.nav-icon{
+  
+  align-items: center;
+}
+.nav-item{
+  list-style: none;
+  margin-right: 30px;
+  
+}
+.nav-link{
+  text-decoration: none;
+  font-weight: 700;
+}
+.nav-links{
+  margin-left: 300px;
+}
+.button{
+  align-items: center;
+  margin-left: 300px;
+}
+.second-button{
+      
+}
+.hamburger-img{
+  display: none;
+}
+.hamburger-img{
+  width: 50px;
+}
+.line{
+  width: auto;
+  height:1px;
+ margin-top: 10px;
+  background-color: #FEA301;
+  display: none;
+}
+.Empowering{
+  
+  max-width: 240px;
+  
+}
+.with-the{
+  max-width: 500px;
+}
+@media screen and ( max-width : 576px) {
+    .hide-sometime ,.nav-links,.button {
+      display:none;
+    }
+    .navbar{
+      display: flex;
+     justify-content: left;
+
+    
+    }
+    .hamburger-img{
+
+      display:block;
+      
+      margin-left: 260px;
+      width: 40px;
+      height: 40px;
+      
+    }
+    .line{
+      display: block;
+    }
+}
