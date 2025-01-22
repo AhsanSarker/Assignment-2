@@ -10,6 +10,19 @@
 }
 
 
+.custom-marquee {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #FFA500;
+  /* Vibrant orange to match the theme */
+  background-color: #fdf4e3;
+  /* Soft pastel background for contrast */
+  padding: 10px 0;
+  border-top: 2px solid #01ACFD;
+  border-bottom: 2px solid #01ACFD;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
 /* shared styles */
 /* body{
   margin: 0 140;
@@ -52,6 +65,21 @@ align-items: center;
 .nav-icon{
   
   align-items: center;
+}
+.eduicon{
+  align-items: center;
+  gap: 20px;
+}
+.kids-education{
+  font-size: 40px;
+  color: white;
+}
+.eduicon > img{
+  width: 80px;
+  height: 80px;
+}
+.pizza{
+  color: white;
 }
 .nav-item{
   list-style: none;
@@ -395,8 +423,47 @@ align-items: center;
 }
 
 /* footer section */
+.Keducation{
+  margin-left: 60px;
+}
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #01ACFD;
+  padding: 60px 60px;
+}
 
+.footer-right {
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-left: 100px;
 
+}
+.footer-mid {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-mid ul {
+  padding-left: 0px;
+  padding-right: 40px;
+}
+
+.footer-mid ul li {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.footer-mid ul li a {
+  text-decoration: none;
+  color: white;
+}
 
 @media screen and ( max-width : 576px) {
     .hide-sometime ,.nav-links,.button {
@@ -480,7 +547,7 @@ align-items: center;
 
 
 #view-btn {
-    margin-top: 1rem;
+    margin-top: 1rem;;
     margin-bottom: 3rem;
 }
 
@@ -493,7 +560,28 @@ align-items: center;
 }
 
 /* footer section */
-
-
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 40px 15px;
+}
+.footer-mid {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.Keducation{
+  margin-left: 0px;
+}
+.Empowering{
+  align-items: center;
+  margin-left: 30px;
+}
+.footer-right{
+  margin-left: 0px;
+}
+.with-the{
+  padding-left: 30px;
+}
 
 }
