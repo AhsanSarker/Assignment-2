@@ -319,6 +319,47 @@ align-items: center;
   margin-top: 0px;
 }
 
+/* hidden section */
+.s2boss h4 {
+  margin: 30px 20px;
+  margin-top: 0px;
+}
+.s2boss button {
+  margin: 0px auto;
+  padding: 10px 10px;
+  border-radius: 40px;
+  border: none;
+  color: white;
+  height: 50px;
+  width: 180px;
+  font-weight: medium;
+  font-size: 1rem;
+  cursor: pointer;
+  position: relative;
+  top: -30px;
+  /* To overlap slightly on the image */
+  left: -30px;
+  z-index: 1;
+}
+.s2boss img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.s2boss {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  background-color: white;
+  overflow: hidden;
+  position: relative;
+}
+.s2boss{
+  display: none;
+}
+
 #btn1 {
   background-color: #95B226;
 }
@@ -440,5 +481,8 @@ align-items: center;
     margin-top: 1rem;
     margin-bottom: 3rem;
 }
-
+/* hide unlock section */
+.s2boss{
+  display: block;
+}
 }
