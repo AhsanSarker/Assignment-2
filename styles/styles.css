@@ -395,6 +395,9 @@ align-items: center;
 #btn2 {
   background-color: #5D58F0;
 }
+#btn2boss {
+  background-color: #5D58F0;
+}
 
 #btn3 {
   background-color: #95B226;
@@ -508,7 +511,9 @@ align-items: center;
    .stories-section {
     padding: 0rem 0rem;
 }
-
+h1{
+  padding-left: 20px;
+}
 .stories-container .s-left {
     display: none;
 }
@@ -544,8 +549,19 @@ align-items: center;
     /* To overlap slightly on the image */
     left: -20px;
 }
+.s2boss button {
+  padding: 5px 5px;
+  height: 30px;
+  width: 110px;
+  position: relative;
+  top: -14px;
+  /* To overlap slightly on the image */
+  left: 15px;
+}
 
-
+#btn2boss{
+  font-size: 10px;
+}
 #view-btn {
     margin-top: 1rem;;
     margin-bottom: 3rem;
