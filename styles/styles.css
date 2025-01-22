@@ -394,6 +394,8 @@ align-items: center;
   cursor: pointer;
 }
 
+/* footer section */
+
 
 
 @media screen and ( max-width : 576px) {
@@ -481,8 +483,17 @@ align-items: center;
     margin-top: 1rem;
     margin-bottom: 3rem;
 }
+
 /* hide unlock section */
 .s2boss{
   display: block;
 }
+.scroll{
+  display: none;
+}
+
+/* footer section */
+
+
+
 }
