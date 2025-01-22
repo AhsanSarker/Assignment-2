@@ -104,7 +104,7 @@ align-items: center;
   color: #5D58EF;
 }
 .curriculum-section {
-  background-image : url('bg.png');
+  background-image : url('../assets/bg.png');
   padding: 2rem 5rem;
 
 }
