@@ -233,5 +233,13 @@ align-items: center;
     margin-right: 30px;
  
   }
+  .second-button{
+   display: flex;
+   justify-content: center;
+  }
+  .curriculum-box{
+    display: flex;
+    flex-direction: column;
+  }
   
 }
